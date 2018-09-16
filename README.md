@@ -23,7 +23,7 @@ Can you compare the probabilities on the ten sample images when trying with diff
 Multilayer fully-connected network
 There is an issue with the test evaluation: your validation accuracy is around 83% according to cell 9/10 but the estimated test accuracy is around 99% according to cell 14. (cannot print the estimated test accuracy - check notebook)
 
-Also, the title of the plot in cell 10 prints the mean accuracy on the last 50 epochs. Since you trained the network on 50 epochs, it corresponds to the mean accuracy across all epochs. Can you change this to the last 5 or 10 epochs to get a proper validation accuracy estimation?
+Also, the title of the plot in cell 10 prints the mean accuracy on the last 50 epochs. Since you trained the network on 50 epochs, it corresponds to the mean accuracy across all epochs. Can you change this to the last 5 or 10 epochs to get a proper validation accuracy estimation? (corrected in the notebook)
 
 Convolutional neural networks
 Please plot the trained weights of the kernels from the first convolutional layer of your trained network.
