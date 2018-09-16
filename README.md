@@ -12,7 +12,7 @@ Can you reuse the best parameters from cell 7 when evaluating the test accuracy 
 There is an issue in cell 37 with the indexes in the for loop when plotting the nearest neighbors. Can you fix it and verify that the images are visually similar to the test one by plotting your  sample_img test image? (incomplete)
 
 Decision trees and random forests
-Suggestion: You correctly tune and evaluated the decision tree and random forest estimators. Well done! However, did you try without the PCA step for random forest? They can handle surprisingly well overfitting due to the bagging mechanism and you should be able to reach between 79% and 80% validation/test accuracy. (to be done)
+Suggestion: You correctly tune and evaluated the decision tree and random forest estimators. Well done! However, did you try without the PCA step for random forest? They can handle surprisingly well overfitting due to the bagging mechanism and you should be able to reach between 79% and 80% validation/test accuracy. (no action needed)
 
 Support vector machines
 The accuracy of your RBF SVM is much smaller than the linear one: 71% vs. 82%. Can you further tune the hyperparameters of the RBF one? To save computation time, I would recommend fixing  C=1 and try to find a good range of gamma values (remember that this parameter is on a log scale, don't hesitate to try very small or large values). You can then fix gamma to a few values and try some C values. You should be able to obtain a test accuracy above 80%. (Corrected in the notebook Support Vector Machines)
