@@ -15,10 +15,10 @@ Decision trees and random forests
 Suggestion: You correctly tune and evaluated the decision tree and random forest estimators. Well done! However, did you try without the PCA step for random forest? They can handle surprisingly well overfitting due to the bagging mechanism and you should be able to reach between 79% and 80% validation/test accuracy. (to be done)
 
 Support vector machines
-The accuracy of your RBF SVM is much smaller than the linear one: 71% vs. 82%. Can you further tune the hyperparameters of the RBF one? To save computation time, I would recommend fixing  C=1 and try to find a good range of gamma values (remember that this parameter is on a log scale, don't hesitate to try very small or large values). You can then fix gamma to a few values and try some C values. You should be able to obtain a test accuracy above 80%. (Corrected in the notebook)
+The accuracy of your RBF SVM is much smaller than the linear one: 71% vs. 82%. Can you further tune the hyperparameters of the RBF one? To save computation time, I would recommend fixing  C=1 and try to find a good range of gamma values (remember that this parameter is on a log scale, don't hesitate to try very small or large values). You can then fix gamma to a few values and try some C values. You should be able to obtain a test accuracy above 80%. (Corrected in the notebook Support Vector Machines)
 
 Logistic regression
-Can you compare the probabilities on the ten sample images when trying with different regularization strengths in cell 13 and 14? i.e. print the DataFrame of probabilities as in cell 11. Then, what can you say about the effect of alpha on the magnitude of the probability values? 
+Can you compare the probabilities on the ten sample images when trying with different regularization strengths in cell 13 and 14? i.e. print the DataFrame of probabilities as in cell 11. Then, what can you say about the effect of alpha on the magnitude of the probability values? (Corrected in the notebook Logistic Regression)
 
 Multilayer fully-connected network
 There is an issue with the test evaluation: your validation accuracy is around 83% according to cell 9/10 but the estimated test accuracy is around 99% according to cell 14.
