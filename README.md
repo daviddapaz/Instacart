@@ -21,12 +21,12 @@ Logistic regression
 Can you compare the probabilities on the ten sample images when trying with different regularization strengths in cell 13 and 14? i.e. print the DataFrame of probabilities as in cell 11. Then, what can you say about the effect of alpha on the magnitude of the probability values? (Corrected in the notebook Logistic Regression)
 
 Multilayer fully-connected network
-There is an issue with the test evaluation: your validation accuracy is around 83% according to cell 9/10 but the estimated test accuracy is around 99% according to cell 14. (cannot print the estimated test accuracy - check notebook)
+There is an issue with the test evaluation: your validation accuracy is around 83% according to cell 9/10 but the estimated test accuracy is around 99% according to cell 14. (corrected)
 
 Also, the title of the plot in cell 10 prints the mean accuracy on the last 50 epochs. Since you trained the network on 50 epochs, it corresponds to the mean accuracy across all epochs. Can you change this to the last 5 or 10 epochs to get a proper validation accuracy estimation? (corrected in the notebook)
 
 Convolutional neural networks
-Please plot the trained weights of the kernels from the first convolutional layer of your trained network.
+Please plot the trained weights of the kernels from the first convolutional layer of your trained network. (corrected)
 
-Also, your network should be able to reach 76% test accuracy. Did you try to increase the number of epochs? You can also try to increase the number of kernels in your first two convolutional layers.
+Also, your network should be able to reach 76% test accuracy. Did you try to increase the number of epochs? You can also try to increase the number of kernels in your first two convolutional layers. (corrected)
 
