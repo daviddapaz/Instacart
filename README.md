@@ -2,7 +2,7 @@
 Applied Data Science: Machine Learning
 
 Data exploration
-The observations for the 2d plot of the OverFeat and pixels data with PCA are incorrect under cells 28 and 35. Can you plot a subset of the data points (ex. 500) to better visualize the patterns in the plots. Then, what can you say about the classes? In particular, do some classes cluster together? Does it make sense? (Corrected in the notebook Data Analysis)
+The observations for the 2d plot of the OverFeat and pixels data with PCA are incorrect under cells 28 and 35. Can you plot a subset of the data points (ex. 500) to better visualize the patterns in the plots. Then, what can you say about the classes? In particular, do some classes cluster together? Does it make sense? (Corrected in the notebook Data Exploration)
 
 
 
